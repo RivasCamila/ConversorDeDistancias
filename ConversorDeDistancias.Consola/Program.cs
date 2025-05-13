@@ -35,6 +35,7 @@ namespace ConversorDeDistancias.Consola
             Kilómetros km1 = new Kilómetros(33);
             Kilómetros km2 = new Kilómetros(33);
 
+
             Console.WriteLine("--- Comparación ---");
             if (km1 == km2)
             {
