@@ -21,14 +21,14 @@ namespace ConversorDeDistancias.Consola
             double kmEnMillas = km.ConvertirAMillas(km.Velocidad);
             double millasEnKm = mi.ConvertirAKilometros(mi.Velocidad);
 
-            Console.WriteLine($"--- Conversiones ---");
+            Console.WriteLine($"---Conversiones---");
             Console.WriteLine($"{km.Velocidad:F2} km = {kmEnMillas:F2} millas");
             Console.WriteLine($"{mi.Velocidad:F2} millas = {millasEnKm:F2} km");
 
             var suma = km + mi;
             var resta = km - mi;
 
-            Console.WriteLine($"--- Operaciones ---");
+            Console.WriteLine($"---Operaciones---");
             Console.WriteLine($"Suma: {suma.Velocidad:F2} km");
             Console.WriteLine($"Resta: {resta.Velocidad:F2} km");
 
