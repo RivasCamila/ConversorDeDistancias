@@ -6,7 +6,6 @@
     {
         Velocidad = velocidad;
     }
-
     public Millas()
     {
         Velocidad = 100;
